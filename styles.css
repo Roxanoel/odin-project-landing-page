@@ -25,6 +25,11 @@ body {
 
 .footer{
     background-color: #1F2937;
+    color: white;
+    text-align: center;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container {
