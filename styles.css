@@ -12,6 +12,16 @@ ul {
     padding-left: 0px;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: none;
+    
+}
 
 .header {
     background-color: #1F2937;
@@ -34,6 +44,24 @@ ul {
 
 .hero {
     background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    height: 560px;
+}
+
+.hero-left {
+    width: 320px;
+}
+
+.hero-text-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf9
+}
+
+.hero-text-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .information {
