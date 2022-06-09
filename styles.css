@@ -26,3 +26,7 @@ body {
 .footer{
     background-color: #1F2937;
 }
+
+.flex-container {
+    display: flex;
+}
