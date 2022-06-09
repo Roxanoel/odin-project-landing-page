@@ -103,6 +103,31 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    padding: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    width: 688px;
+    text-align: justify;
+    margin:0px;
+}
+
+.quote-attribution {
+    font-size: 24px;
+    font-weight: 900;
+    margin:0px;
+    width: 688px;
+    text-align:right;
+    color: #1F2937;
 }
 
 .footer{
@@ -116,4 +141,8 @@ button {
 
 .flex-container {
     display: flex;
+}
+
+.quote .flex-container {
+    
 }
