@@ -139,10 +139,52 @@ button {
     align-items: center;
 }
 
-.flex-container {
-    display: flex;
+.cta {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
 }
 
-.quote .flex-container {
-    
+.cta button {
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+}
+
+.cta-frame {
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-around;
+    gap: 36px;
+    padding: 36px;
+    width: 960px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cta-right {
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: white;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.cta-text {
+    color: white;
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
 }
