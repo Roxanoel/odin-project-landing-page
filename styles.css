@@ -6,6 +6,23 @@ body {
     display: flex;
     flex-direction: column;
 }
-.hero {
 
+.header {
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.information {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
 }
